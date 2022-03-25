@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4900a06-06f8-49b2-99c3-1438f9f6281e">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4900a06-06f8-49b2-99c3-1438f9f6281e">
   <producedTypes>
     <objectType typeId="6d117f4d-3440-4e37-9997-7ff554180790" valueTypeId="b8213802-4f21-4959-8e17-2611af485a22"/>
     <refType typeId="62d06817-e6b2-4e9c-abde-a58bffcfee28" valueTypeId="9fd3014b-f1e7-42bb-b09e-4c21580b72aa"/>
@@ -31,4 +31,20 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="5a8bb7ad-bb08-4cc2-b5f4-e8fb8e3fcab2">
+    <name>БазоваЕдиница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базова единица</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

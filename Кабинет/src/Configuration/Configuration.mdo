@@ -42,4 +42,7 @@
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ТорговыеТочки</catalogs>
+  <documents>Document.ЗаказНаОтгрузку</documents>
 </mdclass:Configuration>

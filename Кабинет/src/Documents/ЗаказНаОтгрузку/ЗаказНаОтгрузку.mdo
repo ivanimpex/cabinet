@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8a49314d-38dd-484a-b240-ec5199a060ac">
+  <producedTypes>
+    <objectType typeId="2e53b82b-f67c-4480-b263-1fe90a0f36aa" valueTypeId="d66801b2-5208-4f1f-a1d0-03448a8d38c8"/>
+    <refType typeId="a112c169-1e5c-43d5-ba59-6da1aad9dbaf" valueTypeId="381eb8f3-a663-4de3-9412-7dc3db400900"/>
+    <selectionType typeId="3f8e3970-21b2-405a-a938-d2355a0a7730" valueTypeId="5678921c-1d16-49d2-8535-333452cb2325"/>
+    <listType typeId="12a4d5c2-8d26-4e69-af86-f221bcc44b57" valueTypeId="c051d7e6-8122-4e92-9f97-49ea2dd40db7"/>
+    <managerType typeId="8de517ba-4081-4249-ada0-8d7126aab9f2" valueTypeId="3b28416b-382c-4583-b377-1ff18561f8c6"/>
+  </producedTypes>
+  <name>ЗаказНаОтгрузку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ на отгрузку</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказНаОтгрузку.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+</mdclass:Document>
